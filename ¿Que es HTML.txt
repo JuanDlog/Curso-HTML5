@@ -1,0 +1,3 @@
+Un documento de HTML está formado por etiquetas, define el texto o el contenido purp de la pagina y la estructura de la página web que posteriormente si queremos darle forma, color y tal, tenemos que usar lenguaje CSS.
+
+Esta formado por multitud de etiquetas y algunas etiquetas tienen un atributo que otro.
