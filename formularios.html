@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios HTML5</title>
+</head>
+<body>
+
+    <h1>Validación</h1>
+    <form>
+        <input type="text" required
+         minlength="5"
+         maxlength="15"
+         pattern="[A-Za-z ]+"
+         />
+
+        <input type="number" required
+         max="20"
+         min="5"/>
+        <input type="submit" value="enviar"/>
+
+    </form>
+
+    <h1>Formularios</h1>
+    <form>
+        <fieldset>
+            <legend>Información Personal</legend>
+
+            <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre..."/>
+            </div>
+
+            <div>
+            <label for="descripcion">Descripción:</label>
+            <textarea id="descripcion"></textarea>
+            </div>
+
+            <div>
+                Email:
+                <input type="email"/>
+            </div>
+
+            <div>
+                Contraseña
+                <input type="password"/>
+            </div>
+
+            <div>
+                Radio:
+                <input type="radio" name="genero" id="hombre" value="hombre"/>
+                <label for="hombre">Hombre</label>
+
+                <input type="radio" name="genero" id="mujer"value="mujer"/>
+                <label for="mujer">Mujer</label>
+            </div>
+
+            <div>
+                Select:
+                <select>
+                    <option value="hombre">Hombre</option>
+                    <option value="mujer">Mujer</option>
+                    <option value="otro">Otro</option>
+                </select>
+            </div>
+
+            <div>
+                Checkbox:
+                <label>
+                    <input type="checkbox"/> Mayor de edad
+                </label>
+
+                <label>
+                    <input type="checkbox"/> Menor de edad
+                </label>
+            </div>
+
+            <div>
+                Color:
+                <input type="color"/>
+            </div>
+
+            <div>
+                Fecha:
+                <input type="date"/>
+            </div>
+
+            <div>
+                Ficheros:
+                <input type="file"/>
+            </div>
+
+            <div>
+                Imagen:
+                <input type="image" src="Imagenes/linda-escena-perro-marron-blanco_23-2150179279.avif" width="50"/>
+            </div>
+
+            <div>
+                <input type="hidden" name="Oculto" value="super,gangs"/>
+            </div>
+
+            <div>
+                Numero:
+                <input type="number"/>
+            </div>
+
+            <div>
+                Rango:
+                <input type="range" name="rango"/>
+            </div>
+
+            <div>
+                Buscar:
+                <input type="search" name="buscar"/>
+                <button>Buscar</button>
+            </div>
+
+            <div>
+                Telefono:
+                <input type="tel" name="telefono"/>
+
+            </div>
+
+            <div>
+                Hora:
+                <input type="time"/>
+
+            </div>
+
+            <div>
+                Mes:
+                <input type="month"/>
+            </div>
+
+            <div>
+                Sitio Web:
+                <input type="url"/>
+            </div>
+
+            <div>
+                Barra progreso:
+                <progress max="100" value="45"></progress>
+            </div>
+
+            <div>
+                Meter
+                <meter max="100" value="45"></meter>
+            </div>
+
+            <div>
+                Lista de datos:
+                <input list="frutas" name="fruta"/>
+                <datalist id="frutas">
+                    <option value="manzana"></option>
+                    <option value="naranja"></option>
+                    <option value="cereza"></option>
+                    <option value="sandia"></option>
+                    <option value="pera"></option>
+                </datalist>
+            </div>
+
+        </fieldset>
+
+        <input type="submit" value="Enviar"/>
+        <input type="reset" value="Limpiar Formulario"/>
+
+    </form>
+    
+</body>
+</html>
