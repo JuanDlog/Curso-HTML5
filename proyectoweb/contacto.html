@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/png" href="images/favicon.png"/>
+        <title>Proyecto con HTML5</title>
+
+        <style>
+            article{
+                border-bottom: 1px solid gray; 
+                margin-bottom: 10px;
+                
+            }
+        </style>
+
+    </head>
+    <body>
+        <header>
+            <h1>Proyecto HTML</h1>
+
+            <nav>
+                <!--menu-->
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="multimedia.html">Multimedia</a></li>
+                    <li><a href="dieta.html">Dieta</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+
+            <section id="contacto">
+            <h2>Contacto</h2>
+
+            <form>
+                <fieldset>
+                    <legend>Contacto</legend>
+
+                    <div>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" placeholder="Nombre...">
+                    </div>
+
+                    <div>
+                        <label for="apellidos">Apellidos</label>
+                        <input type="text" id="apellido" placeholder="Apellido...">
+                    </div>
+
+                    <div>
+                        <label for="correo">Correo</label>
+                        <input type="email" id="email" placeholder="Correo...">
+                    </div>
+
+                    <div>
+                        <label for='edad'>Edad</label>
+                        <input type="number" id="edad">
+                    </div>
+
+                    <div>
+                        <label for="genero">Genero</label>
+                        <select id="genero">
+                            <option value="hombre">Hombre</option>
+                            <option value="mujer">Mujer</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="motivo">Motivo</label>
+                        <textarea id="motivo"></textarea>
+                    </div>
+
+                    <input type="submit" value="Enviar">
+                </fieldset>
+            </form>
+
+            </section>
+            <hr>
+        </main>
+
+        <footer>
+            Proyecto de HTML con ejercicios de Víctor Robles WEB &copy; 2025
+        </footer>
+    </body>
+</html>
