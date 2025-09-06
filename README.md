@@ -3,8 +3,7 @@
 
 # Curso de HTML5 desde cero: El más completo en Español
 
-Este repositorio contiene los códigos hechos durante el curso de [Víctor Robles](https://www.youtube.com/@victorroblesweb/videos), en donde aprendí y mejoré el dominio de todos los fundamentos básicos de **HTML**.  
-Recomiendo este curso para mejorar tu nivel en HTML.  
+Este repositorio contiene los códigos hechos durante el curso de [Víctor Robles](https://www.youtube.com/@victorroblesweb/videos), en donde aprendí y mejoré el dominio de todos los fundamentos básicos de **HTML**. Recomiendo este curso para mejorar tu nivel en HTML.  
 
 Puedes acceder al curso en el siguiente enlace:  
 
