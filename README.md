@@ -11,14 +11,14 @@ Puedes acceder al curso en el siguiente enlace:
 
 ---
 
-# Estructura
+## Estructura
 
 - `proyectoweb`: Carpeta con el proyecto realizado en el curso, aplicando lo aprendido.
 - `aprendiendo-css`: Carpeta con ejemplos básicos de CSS, para darle estilo a la estructura de HTML.
 
 ---
 
-# Recursos adicionales
+## Recursos adicionales
 
 - [Certificado](https://www.udemy.com/certificate/UC-950d0fe3-6290-4169-963b-ff0b1df7643b/)  
 - Curso dentro de la [Ruta de aprendizaje para ser desarrollador web por Víctor Robles](https://victorroblesweb.es/ruta/)
